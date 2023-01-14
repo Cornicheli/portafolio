@@ -1,0 +1,15 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.ctn-aboutme {
+  display: flex;
+  justify-content: center;
+}
+.title-aboutme {
+  color: black;
+}
+.text-aboutme {
+  line-height: 36px;
+}
