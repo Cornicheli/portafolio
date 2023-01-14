@@ -10,13 +10,12 @@ h1 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  min-height: 10vh;
-  padding: 1rem;
+  height: 10vh;
   background-color: black;
 }
 .ctn-ancor-header {
-  margin: 0.5rem;
-  padding: 0.5rem;
+  display: flex;
+  margin: 0rem 0.5rem 0rem 0.5rem;
 }
 .ancor-header {
   position: relative;

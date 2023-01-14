@@ -6,9 +6,9 @@ export default function Skills() {
     <>
       <div className="cnt-skills">
         <div className="ctn-title-skill">
-          <h1 className="title-skill">My Skill in Front and Back</h1>
+          <h5 className="title-skill">My skills as a fullstack developer</h5>
         </div>
-        <div>
+        <div className="ctn-skill-card">
           <ul class="wrapper">
             <li class="icon html">
               <span class="tooltip">HTML</span>
@@ -35,7 +35,7 @@ export default function Skills() {
               </span>
             </li>
             <li class="icon mongodb">
-              <span class="tooltip">MongoDB</span>
+              <span class="tooltip">Mongo DB</span>
               <span>
                 <i class="fab fa-mongodb">M</i>
               </span>
@@ -59,7 +59,7 @@ export default function Skills() {
               </span>
             </li>
             <li class="icon nodejs">
-              <span class="tooltip">NodeJS</span>
+              <span class="tooltip">Node JS</span>
               <span>
                 <i class="fab fa-nodejs">N</i>
               </span>
@@ -77,7 +77,7 @@ export default function Skills() {
               </span>
             </li>
             <li class="icon gitHub">
-              <span class="tooltip">GitHub</span>
+              <span class="tooltip">Git Hub</span>
               <span>
                 <i class="fab fa-gitHub">G</i>
               </span>
