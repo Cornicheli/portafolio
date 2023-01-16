@@ -10,7 +10,7 @@ export default function MyProyect() {
         <div className="ctn-text-myproyect">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, saepe
-            perspiciatis sed totam quis quod?
+            perspiciatis sed totam quis.
           </p>
         </div>
       </div>
