@@ -8,10 +8,7 @@ export default function MyProyect() {
           <img src="" alt="" />
         </div>
         <div className="ctn-text-myproyect">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, saepe
-            perspiciatis sed totam quis.
-          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
     </div>

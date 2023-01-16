@@ -25,6 +25,11 @@ export default function Header() {
             Contact
           </a>
         </div>
+        <div className="ctn-ancor-header">
+          <a className="ancor-header" href="#">
+            My Proyects
+          </a>
+        </div>
       </div>
     </>
   );
