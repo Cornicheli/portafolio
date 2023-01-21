@@ -1,0 +1,12 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.ctn-myproyect {
+  height: 30vh;
+}
+.ctn-img-proyect {
+  width: 100%;
+  height: 100%;
+}

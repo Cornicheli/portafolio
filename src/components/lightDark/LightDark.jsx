@@ -3,6 +3,7 @@ import "./lightDark.css";
 import "../skill/skills.css";
 import Skills from "../skill/Skills";
 import AboutMe from "../aboutMe/AboutMe";
+import MyProyect from "../myproyect/MyProyect";
 
 export default function LightDark() {
   return (
@@ -25,6 +26,7 @@ export default function LightDark() {
           </div>
           <AboutMe />
           <Skills />
+          <MyProyect />
         </form>
       </div>
     </>

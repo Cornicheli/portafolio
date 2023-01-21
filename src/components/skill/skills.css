@@ -31,6 +31,7 @@
   flex-wrap: wrap;
   list-style: none;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .wrapper .icon {

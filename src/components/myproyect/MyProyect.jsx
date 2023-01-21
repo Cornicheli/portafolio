@@ -1,16 +1,14 @@
 import React from "react";
+import "./myProyect.css";
 
 export default function MyProyect() {
   return (
-    <div className="ctn-myproyect">
-      <div className="card-myproyect">
-        <div className="ctn-img-myproyect">
-          <img src="" alt="" />
-        </div>
-        <div className="ctn-text-myproyect">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
+    <div className="ctn-img-myproyect">
+      <img
+        className="ctn-img-proyect"
+        src="https://static.vecteezy.com/system/resources/previews/006/209/507/original/of-coming-soon-perfect-for-additional-design-coming-soon-design-etc-vector.jpg"
+        alt=""
+      />
     </div>
   );
 }
