@@ -7,9 +7,22 @@ export default function AboutMe() {
       <div className="ctn-aboutme">
         <div className="ctn-text1-aboutme">
           <h4 className="title-aboutme">¿ About Me ? I am Gabriel Cornide</h4>
-          <a target="blank" href="https://github.com/Cornicheli">
-            Holi
-          </a>
+          <div className="ctn-link-aboutme">
+            <a
+              className="link-aboutme"
+              target="blank"
+              href="https://github.com/Cornicheli"
+            >
+              GitHub
+            </a>
+            <a
+              className="link-aboutme"
+              target="blank"
+              href="https://www.linkedin.com/in/gabriel-cornide-99624923b/"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
         <div className="ctn-text2-aboutme">
           <p className="text-aboutme">
