@@ -4,9 +4,9 @@ import "./skills.css";
 export default function Skills() {
   return (
     <>
-      <div className="cnt-skills">
+      <div className="cnt-skills" id="skill">
         <div className="ctn-title-skill">
-          <h5 className="title-skill">My skills as a fullstack developer</h5>
+          <h1 className="title-skill">My skills as a fullstack developer</h1>
         </div>
         <div className="ctn-skill-icon">
           <div className="ctn-img-skill">
@@ -106,94 +106,92 @@ export default function Skills() {
             </ul>
           </div>
         </div>
-        <div className="ctn-two-skill">
-          <div className="ctn-skill-icon">
-            <div className="ctn-img-skill">
-              <img
-                className="icon-skill"
-                src="https://cdn-icons-png.flaticon.com/512/5380/5380760.png"
-                alt=""
-              />
-            </div>
-            <h3 className="title-skill-logo">Back End</h3>
-            <div className="ctn-skill-card">
-              <ul class="wrapper">
-                <li class="icon mongodb">
-                  <span class="tooltip">Mongo DB</span>
-                  <span>
-                    <i class="ctn-icon-skill-card">
-                      <img
-                        className="icon-skill-card"
-                        src="https://img.icons8.com/color/512/mongodb.png"
-                        alt=""
-                      />
-                    </i>
-                  </span>
-                </li>
-                <li class="icon express">
-                  <span class="tooltip">Express</span>
-                  <span>
-                    <i class="ctn-icon-skill-card">
-                      <img
-                        className="icon-skill-card"
-                        src="https://img.icons8.com/ios/512/express-js.png"
-                        alt=""
-                      />
-                    </i>
-                  </span>
-                </li>
-                <li class="icon nodejs">
-                  <span class="tooltip">Node JS</span>
-                  <span>
-                    <i class="ctn-icon-skill-card">
-                      <img
-                        className="icon-skill-card"
-                        src="https://img.icons8.com/color/512/nodejs.png"
-                        alt=""
-                      />
-                    </i>
-                  </span>
-                </li>
-              </ul>
-            </div>
+        <div className="ctn-skill-icon">
+          <div className="ctn-img-skill">
+            <img
+              className="icon-skill"
+              src="https://cdn-icons-png.flaticon.com/512/5380/5380760.png"
+              alt=""
+            />
           </div>
-          <div className="ctn-skill-icon">
-            <div className="ctn-img-skill">
-              <img
-                className="icon-skill"
-                src="https://cdn-icons-png.flaticon.com/512/3524/3524577.png"
-                alt=""
-              />
-            </div>
-            <h3 className="title-skill-logo">Tools</h3>
-            <div className="ctn-skill-card">
-              <ul class="wrapper">
-                <li class="icon gitHub">
-                  <span class="tooltip">Git Hub</span>
-                  <span>
-                    <i class="ctn-icon-skill-card">
-                      <img
-                        className="icon-skill-card"
-                        src="https://cdn-icons-png.flaticon.com/512/3291/3291667.png"
-                        alt=""
-                      />
-                    </i>
-                  </span>
-                </li>
-                <li class="icon postman">
-                  <span class="tooltip">Postman</span>
-                  <span>
-                    <i class="ctn-icon-skill-card">
-                      <img
-                        className="icon-skill-card"
-                        src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"
-                        alt=""
-                      />
-                    </i>
-                  </span>
-                </li>
-              </ul>
-            </div>
+          <h3 className="title-skill-logo">Back End</h3>
+          <div className="ctn-skill-card">
+            <ul class="wrapper">
+              <li class="icon mongodb">
+                <span class="tooltip">Mongo DB</span>
+                <span>
+                  <i class="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src="https://img.icons8.com/color/512/mongodb.png"
+                      alt=""
+                    />
+                  </i>
+                </span>
+              </li>
+              <li class="icon express">
+                <span class="tooltip">Express</span>
+                <span>
+                  <i class="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src="https://img.icons8.com/ios/512/express-js.png"
+                      alt=""
+                    />
+                  </i>
+                </span>
+              </li>
+              <li class="icon nodejs">
+                <span class="tooltip">Node JS</span>
+                <span>
+                  <i class="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src="https://img.icons8.com/color/512/nodejs.png"
+                      alt=""
+                    />
+                  </i>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="ctn-skill-icon">
+          <div className="ctn-img-skill">
+            <img
+              className="icon-skill"
+              src="https://cdn-icons-png.flaticon.com/512/3524/3524577.png"
+              alt=""
+            />
+          </div>
+          <h3 className="title-skill-logo">Tools</h3>
+          <div className="ctn-skill-card">
+            <ul class="wrapper">
+              <li class="icon gitHub">
+                <span class="tooltip">Git Hub</span>
+                <span>
+                  <i class="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src="https://cdn-icons-png.flaticon.com/512/3291/3291667.png"
+                      alt=""
+                    />
+                  </i>
+                </span>
+              </li>
+              <li class="icon postman">
+                <span class="tooltip">Postman</span>
+                <span>
+                  <i class="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"
+                      alt=""
+                    />
+                  </i>
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

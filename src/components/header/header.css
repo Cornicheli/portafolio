@@ -7,11 +7,14 @@ h1 {
   color: white;
 }
 .ctn-header {
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 10vh;
+  width: 100%;
   background-color: black;
+  z-index: 1;
 }
 .ctn-ancor-header {
   display: flex;

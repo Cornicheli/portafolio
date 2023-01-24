@@ -6,12 +6,12 @@
 .ctn-aboutme {
   display: flex;
   justify-content: center;
-
   align-items: center;
-  min-height: 75vh;
+  min-height: 100vh;
 }
 .title-aboutme {
   color: black;
+  font-size: 6rem;
 }
 .ctn-text1-aboutme {
   display: flex;
@@ -27,7 +27,6 @@
 .link-aboutme {
   color: black;
   text-decoration: none;
-  font-size: 0.3rem;
   padding: 0.2rem;
 }
 .ctn-text2-aboutme {
@@ -38,7 +37,7 @@
   height: 100%;
 }
 .text-aboutme {
-  font-size: 0.5rem;
+  font-size: 3rem;
   padding: 0.3rem;
 }
 /* .text-aboutme {

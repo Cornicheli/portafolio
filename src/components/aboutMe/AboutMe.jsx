@@ -4,9 +4,9 @@ import "./aboutMe.css";
 export default function AboutMe() {
   return (
     <>
-      <div className="ctn-aboutme">
+      <div className="ctn-aboutme" id="home">
         <div className="ctn-text1-aboutme">
-          <h4 className="title-aboutme">¿ About Me ? I am Gabriel Cornide</h4>
+          <h1 className="title-aboutme">¿ About Me ? I am Gabriel Cornide</h1>
           <div className="ctn-link-aboutme">
             <a
               className="link-aboutme"

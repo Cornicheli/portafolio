@@ -6,27 +6,27 @@ export default function Header() {
     <>
       <div className="ctn-header">
         <div className="ctn-ancor-header">
-          <a className="ancor-header" href="#">
+          <a className="ancor-header" href="#home">
             Home
           </a>
         </div>
         <div className="ctn-ancor-header">
-          <a className="ancor-header" href="#">
+          <a className="ancor-header" href="#home">
             About me
           </a>
         </div>
         <div className="ctn-ancor-header">
-          <a className="ancor-header" href="#">
+          <a className="ancor-header" href="#skill">
             Skills
           </a>
         </div>
         <div className="ctn-ancor-header">
-          <a className="ancor-header" href="#">
+          <a className="ancor-header" href="-">
             Contact
           </a>
         </div>
         <div className="ctn-ancor-header">
-          <a className="ancor-header" href="#">
+          <a className="ancor-header" href="#proyect">
             My Proyects
           </a>
         </div>
