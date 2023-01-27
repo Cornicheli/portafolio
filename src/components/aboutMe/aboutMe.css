@@ -7,11 +7,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   min-height: 100vh;
+  background-position: center;
+  background-color: #141414;
 }
 .title-aboutme {
   color: black;
-  font-size: 6rem;
+  font-size: 4rem;
+  font-family: "Anonymous Pro", monospace;
 }
 .ctn-text1-aboutme {
   display: flex;
@@ -28,7 +32,44 @@
   color: black;
   text-decoration: none;
   padding: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
+
+.link-aboutme {
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(106, 103, 103), rgb(255, 255, 255));
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.link-aboutme:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.link-aboutme:hover {
+  background-position: 0;
+}
+
+.link-aboutme:hover::before {
+  width: auto;
+}
+
 .ctn-text2-aboutme {
   display: flex;
   justify-content: center;
@@ -36,10 +77,71 @@
   width: 65%;
   height: 100%;
 }
+
 .text-aboutme {
-  font-size: 3rem;
+  position: relative;
+  color: hsl(0, 0%, 0%);
+  font-weight: 600;
+  font-family: "Anonymous Pro", monospace;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: wrap;
+  animation: typewriter1 4s steps(44) 1s 1 normal both,
+    blinkTextCursor1 500ms infinite;
+  height: 15rem;
+  color: #adadad;
+  font-size: 2rem;
+  line-height: 45px;
   padding: 0.3rem;
 }
-/* .text-aboutme {
-  line-height: 16px;
-} */
+
+@keyframes typewriter1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 2000px;
+  }
+}
+@keyframes blinkTextCursor1 {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.title-aboutme {
+  position: relative;
+  color: hsl(0, 0%, 0%);
+  font-weight: 600;
+  font-family: "Anonymous Pro", monospace;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: wrap;
+  animation: typewriter 3s steps(44) 1s 1 normal both,
+    blinkTextCursor1 500ms infinite;
+  color: #adadad;
+  font-size: 2rem;
+  line-height: 45px;
+  padding: 0.3rem;
+  height: 3rem;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 600px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

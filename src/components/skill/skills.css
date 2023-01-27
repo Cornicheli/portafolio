@@ -19,8 +19,13 @@
   height: 100%;
 }
 .title-skill {
-  color: black;
   font-size: 3.5rem;
+  cursor: pointer;
+  background: linear-gradient(to right, blue, rgb(174, 31, 55));
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .ctn-skill-icon {
   display: flex;
@@ -41,10 +46,12 @@
 .title-skill-logo {
   font-size: 2.5rem;
   width: 20%;
+  color: white;
 }
 .title-skill-logo-ft {
   font-size: 2.5rem;
   width: 20%;
+  color: white;
 }
 .cnt-skills {
   display: flex;
@@ -53,6 +60,11 @@
   align-items: center;
   min-height: 100vh;
   width: 100%;
+  background-image: url("https://wallpaper.dog/large/20503233.jpg");
+  background-position-x: 500px;
+  background-position-y: -120%;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
 }
 .ctn-skill-card {
   display: flex;
@@ -177,12 +189,6 @@
   background: #52abc8;
   color: #ffffff;
 }
-.wrapper .reactnative:hover,
-.wrapper .reactnative:hover .tooltip,
-.wrapper .reactnative:hover .tooltip::before {
-  background: #7ddfff;
-  color: #ffffff;
-}
 .wrapper .nodejs:hover,
 .wrapper .nodejs:hover .tooltip,
 .wrapper .nodejs:hover .tooltip::before {
@@ -206,10 +212,44 @@
 .wrapper .gitHub:hover .tooltip::before {
   background: #000000;
   color: #ffffff;
+  border: solid 1px white;
 }
 .wrapper .postman:hover,
 .wrapper .postman:hover .tooltip,
 .wrapper .postman:hover .tooltip::before {
   background: #f06732;
   color: #ffffff;
+}
+
+.title-skill-logo {
+  cursor: pointer;
+  background: linear-gradient(to right, blue, rgb(174, 31, 55));
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.title-skill-logo:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.title-skill-logo:hover {
+  background-position: 0;
+}
+
+.title-skill-logo:hover::before {
+  width: auto;
 }

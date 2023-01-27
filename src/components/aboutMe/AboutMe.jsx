@@ -7,22 +7,6 @@ export default function AboutMe() {
       <div className="ctn-aboutme" id="home">
         <div className="ctn-text1-aboutme">
           <h1 className="title-aboutme">¿ About Me ? I am Gabriel Cornide</h1>
-          <div className="ctn-link-aboutme">
-            <a
-              className="link-aboutme"
-              target="blank"
-              href="https://github.com/Cornicheli"
-            >
-              GitHub
-            </a>
-            <a
-              className="link-aboutme"
-              target="blank"
-              href="https://www.linkedin.com/in/gabriel-cornide-99624923b/"
-            >
-              LinkedIn
-            </a>
-          </div>
         </div>
         <div className="ctn-text2-aboutme">
           <p className="text-aboutme">
@@ -33,6 +17,11 @@ export default function AboutMe() {
             bootcamp at MindHub with +800hs of coursework oriented to Full-Stack
             JavaScript development.
           </p>
+        </div>
+        <div className="ctn-link-aboutme">
+          <a className="link-aboutme" href="#contact">
+            My Contact
+          </a>
         </div>
       </div>
     </>
