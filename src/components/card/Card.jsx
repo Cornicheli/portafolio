@@ -10,16 +10,12 @@ export default function Card() {
             <div class="image">
               <img
                 className="img-card"
-                src="https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg"
+                src="https://cdn.discordapp.com/attachments/1063530094053818398/1068586251126571059/image.png"
               />
             </div>
             <div class="details">
               <div class="center">
-                <h1>
-                  Someone famous
-                  <br />
-                  <span>team leader</span>
-                </h1>
+                <h1>Game Center</h1>
                 <p>
                   Lorem ipsum is simple dummy text on the printing and
                   typesetting industry.
@@ -31,16 +27,12 @@ export default function Card() {
             <div class="image">
               <img
                 className="img-card"
-                src="https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg"
+                src="https://cdn.discordapp.com/attachments/1063530094053818398/1068589271277117582/image.png"
               />
             </div>
             <div class="details">
               <div class="center">
-                <h1>
-                  Someone famous
-                  <br />
-                  <span>team leader</span>
-                </h1>
+                <h1>My Tinerary</h1>
                 <p>
                   Lorem ipsum is simple dummy text on the printing and
                   typesetting industry.
@@ -58,16 +50,12 @@ export default function Card() {
             <div class="image">
               <img
                 className="img-card"
-                src="https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1287142.jpg&fm=jpg"
+                src="https://cdn.discordapp.com/attachments/1063530094053818398/1068591212463931392/image.png"
               />
             </div>
             <div class="details">
               <div class="center">
-                <h1>
-                  Someone famous
-                  <br />
-                  <span>team leader</span>
-                </h1>
+                <h1>Pet Shop</h1>
                 <p>
                   Lorem ipsum is simple dummy text on the printing and
                   typesetting industry.

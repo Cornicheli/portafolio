@@ -11,11 +11,22 @@
   min-height: 100vh;
   background-position: center;
   background-color: #141414;
+  background-image: url("https://qubit-labs.com/wp-content/uploads/2020/11/What-Does-a-Software-Developer-Do-Besides-Writing-Code-scaled.jpg");
+  background-size: cover;
+}
+.ctn-titles-aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
 }
 .title-aboutme {
   color: black;
   font-size: 4rem;
   font-family: "Anonymous Pro", monospace;
+  background-color: #ffffff61;
+  backdrop-filter: blur(1px);
+  border-radius: 18px 18px 0px 0px;
 }
 .ctn-text1-aboutme {
   display: flex;
@@ -38,36 +49,15 @@
 }
 
 .link-aboutme {
-  cursor: pointer;
-  background: linear-gradient(to right, rgb(106, 103, 103), rgb(255, 255, 255));
-  background-size: 200% 100%;
-  background-position: -100%;
-  display: inline-block;
-  padding: 5px 0;
-  position: relative;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
-}
-
-.link-aboutme:before {
-  content: "";
-  background: #54b3d6;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-  transition: all 0.3s ease-in-out;
-}
-
-.link-aboutme:hover {
-  background-position: 0;
-}
-
-.link-aboutme:hover::before {
-  width: auto;
+  margin-top: 10px;
+  padding: 5px;
+  color: black;
+  font-weight: 700;
+  font-size: 1.7rem;
+  font-family: "Anonymous Pro", monospace;
+  background-color: #ffffff61;
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
 }
 
 .ctn-text2-aboutme {
@@ -81,7 +71,7 @@
 .text-aboutme {
   position: relative;
   color: hsl(0, 0%, 0%);
-  font-weight: 600;
+  font-weight: bold;
   font-family: "Anonymous Pro", monospace;
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 80%);
@@ -89,10 +79,12 @@
   animation: typewriter1 4s steps(44) 1s 1 normal both,
     blinkTextCursor1 500ms infinite;
   height: 15rem;
-  color: #adadad;
   font-size: 2rem;
   line-height: 45px;
   padding: 0.3rem;
+  background-color: #ffffff61;
+  backdrop-filter: blur(1px);
+  border-radius: 18px;
 }
 
 @keyframes typewriter1 {
@@ -115,14 +107,13 @@
 .title-aboutme {
   position: relative;
   color: hsl(0, 0%, 0%);
-  font-weight: 600;
+  font-weight: bold;
   font-family: "Anonymous Pro", monospace;
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 80%);
   white-space: wrap;
   animation: typewriter 3s steps(44) 1s 1 normal both,
     blinkTextCursor1 500ms infinite;
-  color: #adadad;
   font-size: 2rem;
   line-height: 45px;
   padding: 0.3rem;
