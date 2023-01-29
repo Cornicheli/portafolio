@@ -18,11 +18,11 @@ export default function Skills() {
           </div>
           <h3 className="title-skill-logo">Front End</h3>
           <div className="ctn-skill-card">
-            <ul class="wrapper">
-              <li class="icon html">
-                <span class="tooltip">HTML</span>
+            <ul className="wrapper">
+              <li className="icon html">
+                <span className="tooltip">HTML</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
@@ -32,10 +32,10 @@ export default function Skills() {
                 </span>
               </li>
 
-              <li class="icon css">
-                <span class="tooltip">CSS</span>
+              <li className="icon css">
+                <span className="tooltip">CSS</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
@@ -45,10 +45,10 @@ export default function Skills() {
                 </span>
               </li>
 
-              <li class="icon javascript">
-                <span class="tooltip">JavaScript</span>
+              <li className="icon javascript">
+                <span className="tooltip">JavaScript</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
@@ -58,10 +58,10 @@ export default function Skills() {
                 </span>
               </li>
 
-              <li class="icon bootstrap">
-                <span class="tooltip">Bootstrap</span>
+              <li className="icon bootstrap">
+                <span className="tooltip">Bootstrap</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png"
@@ -71,12 +71,12 @@ export default function Skills() {
                 </span>
               </li>
 
-              <li class="icon react">
-                <span class="tooltip">
+              <li className="icon react">
+                <span className="tooltip">
                   React <br /> React Native
                 </span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
@@ -86,10 +86,10 @@ export default function Skills() {
                 </span>
               </li>
 
-              <li class="icon redux">
-                <span class="tooltip">Redux Toolkit</span>
+              <li className="icon redux">
+                <span className="tooltip">Redux Toolkit</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg"
@@ -111,11 +111,11 @@ export default function Skills() {
           </div>
           <h3 className="title-skill-logo">Back End</h3>
           <div className="ctn-skill-card">
-            <ul class="wrapper">
-              <li class="icon mongodb">
-                <span class="tooltip">Mongo DB</span>
+            <ul className="wrapper">
+              <li className="icon mongodb">
+                <span className="tooltip">Mongo DB</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://img.icons8.com/color/512/mongodb.png"
@@ -125,10 +125,10 @@ export default function Skills() {
                 </span>
               </li>
 
-              <li class="icon express">
-                <span class="tooltip">Express</span>
+              <li className="icon express">
+                <span className="tooltip">Express</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://img.icons8.com/ios/512/express-js.png"
@@ -138,10 +138,10 @@ export default function Skills() {
                 </span>
               </li>
 
-              <li class="icon nodejs">
-                <span class="tooltip">Node JS</span>
+              <li className="icon nodejs">
+                <span className="tooltip">Node JS</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://img.icons8.com/color/512/nodejs.png"
@@ -163,11 +163,11 @@ export default function Skills() {
           </div>
           <h3 className="title-skill-logo">Tools</h3>
           <div className="ctn-skill-card">
-            <ul class="wrapper">
-              <li class="icon gitHub">
-                <span class="tooltip">Git Hub</span>
+            <ul className="wrapper">
+              <li className="icon gitHub">
+                <span className="tooltip">Git Hub</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://cdn-icons-png.flaticon.com/512/3291/3291667.png"
@@ -177,10 +177,10 @@ export default function Skills() {
                 </span>
               </li>
 
-              <li class="icon postman">
-                <span class="tooltip">Postman</span>
+              <li className="icon postman">
+                <span className="tooltip">Postman</span>
                 <span>
-                  <i class="ctn-icon-skill-card">
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
                       src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"

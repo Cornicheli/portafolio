@@ -9,6 +9,13 @@ export default function contact() {
       </div>
       <div className="ctn-btn-contact">
         <div className="ctn-contact-redes">
+          <div className="ctn-img-contact">
+            <img
+              className="img-contact"
+              src="https://cdn.discordapp.com/attachments/1063530094053818398/1068373728297222184/rework.png"
+              alt=""
+            />
+          </div>
           <button class="cta">
             <span class="hover-underline-animation">
               <a
@@ -16,7 +23,7 @@ export default function contact() {
                 href="https://www.linkedin.com/in/gabriel-cornide-99624923b/"
                 target="_blank"
               >
-                Lined In ←
+                LinkedIn ←
               </a>
             </span>
           </button>
@@ -64,7 +71,7 @@ export default function contact() {
               </a>
             </span>
           </button>
-          <button class="download-button">
+          {/* <button class="download-button">
             <div class="docs">
               <svg
                 class="css-i6dzq1"
@@ -102,15 +109,8 @@ export default function contact() {
                 <line y2="3" x2="12" y1="15" x1="12"></line>
               </svg>
             </div>
-          </button>
+          </button> */}
         </div>
-      </div>
-      <div className="ctn-img-contact">
-        <img
-          className="img-contact"
-          src="https://cdn.discordapp.com/attachments/1063530094053818398/1068373728297222184/rework.png"
-          alt=""
-        />
       </div>
     </div>
   );

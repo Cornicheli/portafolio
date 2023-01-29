@@ -16,10 +16,6 @@ export default function Card() {
             <div class="details">
               <div class="center">
                 <h1>Game Center</h1>
-                <p>
-                  Lorem ipsum is simple dummy text on the printing and
-                  typesetting industry.
-                </p>
               </div>
             </div>
           </div>
@@ -33,10 +29,7 @@ export default function Card() {
             <div class="details">
               <div class="center">
                 <h1>My Tinerary</h1>
-                <p>
-                  Lorem ipsum is simple dummy text on the printing and
-                  typesetting industry.
-                </p>
+
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/gabriel-cornide-99624923b/"
@@ -56,10 +49,6 @@ export default function Card() {
             <div class="details">
               <div class="center">
                 <h1>Pet Shop</h1>
-                <p>
-                  Lorem ipsum is simple dummy text on the printing and
-                  typesetting industry.
-                </p>
               </div>
             </div>
           </div>
@@ -77,10 +66,6 @@ export default function Card() {
                   <br />
                   <span>team leader</span>
                 </h1>
-                <p>
-                  Lorem ipsum is simple dummy text on the printing and
-                  typesetting industry.
-                </p>
               </div>
             </div>
           </div>
@@ -94,10 +79,6 @@ export default function Card() {
             <div class="details">
               <div class="center">
                 <h1>My Tinerary</h1>
-                <p>
-                  Lorem ipsum is simple dummy text on the printing and
-                  typesetting industry.
-                </p>
               </div>
             </div>
           </div>
@@ -111,10 +92,6 @@ export default function Card() {
             <div class="details">
               <div class="center">
                 <h1>PetShop Mindy</h1>
-                <p>
-                  Lorem ipsum is simple dummy text on the printing and
-                  typesetting industry.
-                </p>
               </div>
             </div>
           </div>
@@ -128,10 +105,6 @@ export default function Card() {
             <div class="details">
               <div class="center">
                 <h1>PetShop Mindy</h1>
-                <p>
-                  Lorem ipsum is simple dummy text on the printing and
-                  typesetting industry.
-                </p>
               </div>
             </div>
           </div>
@@ -145,10 +118,6 @@ export default function Card() {
             <div class="details">
               <div class="center">
                 <h1>PetShop Mindy</h1>
-                <p>
-                  Lorem ipsum is simple dummy text on the printing and
-                  typesetting industry.
-                </p>
               </div>
             </div>
           </div>

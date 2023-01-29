@@ -33,16 +33,6 @@
   width: 70%;
   min-height: 10rem;
 }
-.ctn-img-skill {
-  display: flex;
-  align-items: center;
-  width: 6rem;
-  height: 7rem;
-  margin: 0.7rem;
-}
-.icon-skill {
-  width: 100%;
-}
 .title-skill-logo {
   font-size: 2.5rem;
   width: 20%;
@@ -53,6 +43,26 @@
   width: 20%;
   color: white;
 }
+
+@media screen and (max-width: 850px) {
+  .ctn-skill-icon {
+    flex-direction: column;
+  }
+  .title-skill-logo {
+    width: 100%;
+  }
+}
+.ctn-img-skill {
+  display: flex;
+  align-items: center;
+  width: 6rem;
+  height: 7rem;
+  margin: 0.7rem;
+}
+.icon-skill {
+  width: 100%;
+}
+
 .cnt-skills {
   display: flex;
   flex-direction: column;
