@@ -13,7 +13,7 @@ export default function contact() {
             <img
               className="img-contact"
               src="https://cdn.discordapp.com/attachments/1063530094053818398/1068373728297222184/rework.png"
-              alt=""
+              alt="photo contact"
             />
           </div>
           <button class="cta">
@@ -30,9 +30,9 @@ export default function contact() {
           <button class="cta">
             <span class="hover-underline-animation">
               <a
+                target="_blank"
                 className="ancor-aboutme"
                 href="https://github.com/Cornicheli"
-                target="_blank"
               >
                 Git Hub ←
               </a>
