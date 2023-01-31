@@ -85,3 +85,10 @@ html,
   z-index: -1;
   top: 0;
 }
+
+@media screen and (max-width: 435px) {
+  .ancor-header {
+    margin: 0rem;
+    font-size: 14px;
+  }
+}

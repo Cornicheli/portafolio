@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 110vh;
   background-position: center;
   background-color: #141414;
   background-image: url("https://qubit-labs.com/wp-content/uploads/2020/11/What-Does-a-Software-Developer-Do-Besides-Writing-Code-scaled.jpg");
@@ -134,5 +134,63 @@
   }
   to {
     border-right-color: transparent;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ctn-text1-aboutme {
+    width: 90%;
+  }
+  .title-aboutme {
+    font-size: 1.8rem;
+    transition-duration: 1s;
+  }
+  .text-aboutme {
+    font-size: 1.5rem;
+    transition-duration: 1s;
+    margin: 0px 20px 0px 20px;
+  }
+  .ctn-titles-aboutme {
+    width: 100%;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 430px;
+    }
+  }
+}
+@media screen and (max-width: 435px) {
+  .ctn-text1-aboutme {
+    width: 100%;
+  }
+  .text-aboutme {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+  .title-aboutme {
+    font-size: 1.4rem;
+    line-height: 18px;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 275px;
+    }
+  }
+  .ctn-link-aboutme {
+    display: none;
+  }
+  @keyframes typewriter1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 300px;
+    }
   }
 }
