@@ -13,7 +13,7 @@ export default function contact() {
             <img
               className="img-contact"
               src="https://cdn.discordapp.com/attachments/1063530094053818398/1068373728297222184/rework.png"
-              alt="photo contact"
+              alt="figure contact"
             />
           </div>
           <button class="cta">
@@ -22,6 +22,7 @@ export default function contact() {
                 className="ancor-aboutme"
                 href="https://www.linkedin.com/in/gabriel-cornide-99624923b/"
                 target="_blank"
+                rel="noreferrer"
               >
                 LinkedIn ←
               </a>
@@ -31,6 +32,7 @@ export default function contact() {
             <span class="hover-underline-animation">
               <a
                 target="_blank"
+                rel="noreferrer"
                 className="ancor-aboutme"
                 href="https://github.com/Cornicheli"
               >
@@ -44,6 +46,7 @@ export default function contact() {
                 className="ancor-aboutme"
                 href="https://github.com/Cornicheli"
                 target="_blank"
+                rel="noreferrer"
               >
                 Discord ←
               </a>
@@ -55,6 +58,7 @@ export default function contact() {
                 className="ancor-aboutme"
                 href="https://www.facebook.com/gaabriicornideee/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Facebook ←
               </a>
@@ -66,6 +70,7 @@ export default function contact() {
                 className="ancor-aboutme"
                 href="https://twitter.com/_Agusgabriel"
                 target="_blank"
+                rel="noreferrer"
               >
                 Twitter ←
               </a>

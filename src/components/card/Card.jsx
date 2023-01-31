@@ -35,6 +35,7 @@ export default function Card() {
                 <a
                   href="https://www.linkedin.com/in/gabriel-cornide-99624923b/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   view video
                 </a>
