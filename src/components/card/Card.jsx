@@ -16,7 +16,14 @@ export default function Card() {
             </div>
             <div class="details">
               <div class="center">
-                <h1>Game Center</h1>
+                <a
+                  className="ancor-youtube"
+                  href="https://youtu.be/feJQfVntW1U"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  → GAME CENTER
+                </a>
               </div>
             </div>
           </div>
@@ -30,14 +37,13 @@ export default function Card() {
             </div>
             <div class="details">
               <div class="center">
-                <h1>My Tinerary</h1>
-
                 <a
-                  href="https://www.linkedin.com/in/gabriel-cornide-99624923b/"
+                  className="ancor-youtube"
                   target="_blank"
                   rel="noreferrer"
+                  href="https://youtu.be/RnZTvk1Lq9g"
                 >
-                  view video
+                  → MY TINERARY
                 </a>
               </div>
             </div>
@@ -45,88 +51,42 @@ export default function Card() {
           <div class="card">
             <div class="image">
               <img
-                className="img-card"
-                src="https://cdn.discordapp.com/attachments/1063530094053818398/1068591212463931392/image.png"
+                className="img-card-native"
+                src="https://cdn.discordapp.com/attachments/1063530094053818398/1070126258853261312/image.png"
                 alt="proyect"
               />
             </div>
             <div class="details">
               <div class="center">
-                <h1>Pet Shop</h1>
+                <a
+                  className="ancor-youtube"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://youtu.be/nnEdLvlspW0"
+                >
+                  → GAME CENTER NATIVE
+                </a>
               </div>
             </div>
           </div>
           <div class="card">
             <div class="image">
               <img
-                className="img-card"
-                src="https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_1280.jpg"
+                className="img-card-native"
+                src="https://cdn.discordapp.com/attachments/1063530094053818398/1070125561772527688/image.png"
                 alt="proyect"
               />
             </div>
             <div class="details">
               <div class="center">
-                <h1>
-                  Someone famous
-                  <br />
-                  <span>team leader</span>
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="image">
-              <img
-                className="img-card"
-                src="https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_1280.jpg"
-                alt="proyect"
-              />
-            </div>
-            <div class="details">
-              <div class="center">
-                <h1>My Tinerary</h1>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="image">
-              <img
-                className="img-card"
-                src="https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_1280.jpg"
-                alt="proyect"
-              />
-            </div>
-            <div class="details">
-              <div class="center">
-                <h1>PetShop Mindy</h1>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="image">
-              <img
-                className="img-card"
-                src="https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_1280.jpg"
-                alt="proyect"
-              />
-            </div>
-            <div class="details">
-              <div class="center">
-                <h1>PetShop Mindy</h1>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="image">
-              <img
-                className="img-card"
-                src="https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_1280.jpg"
-                alt="proyect"
-              />
-            </div>
-            <div class="details">
-              <div class="center">
-                <h1>PetShop Mindy</h1>
+                <a
+                  className="ancor-youtube"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://youtu.be/y43jhsvLLv4"
+                >
+                  → MY TINERARY NATIVE
+                </a>
               </div>
             </div>
           </div>
