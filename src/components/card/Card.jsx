@@ -18,7 +18,7 @@ export default function Card() {
               <div class="center">
                 <a
                   className="ancor-youtube"
-                  href="https://youtu.be/feJQfVntW1U"
+                  href="https://youtu.be/uJ-Su6GDFis"
                   target="_blank"
                   rel="noreferrer"
                 >

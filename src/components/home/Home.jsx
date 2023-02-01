@@ -4,6 +4,7 @@ import Skills from "../skill/Skills";
 import AboutMe from "../aboutMe/AboutMe";
 import MyProyect from "../myproyect/MyProyect";
 import Contact from "../contact/Contact";
+import "./home.css";
 
 export default function Home() {
   return (
