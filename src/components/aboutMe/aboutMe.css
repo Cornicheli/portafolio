@@ -3,6 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
 .ctn-aboutme {
   display: flex;
   justify-content: center;
@@ -14,12 +15,14 @@
   background-image: url("https://qubit-labs.com/wp-content/uploads/2020/11/What-Does-a-Software-Developer-Do-Besides-Writing-Code-scaled.jpg");
   background-size: cover;
 }
+
 .ctn-titles-aboutme {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 75%;
 }
+
 .title-aboutme {
   color: black;
   font-size: 4rem;
@@ -28,6 +31,7 @@
   backdrop-filter: blur(1px);
   border-radius: 18px 18px 0px 0px;
 }
+
 .ctn-text1-aboutme {
   display: flex;
   flex-direction: column;
@@ -36,6 +40,7 @@
   width: 35%;
   height: 100%;
 }
+
 .ctn-link-aboutme {
   display: flex;
 }
@@ -69,16 +74,9 @@
 }
 
 .text-aboutme {
-  position: relative;
   color: hsl(0, 0%, 0%);
   font-weight: bold;
   font-family: "Anonymous Pro", monospace;
-  overflow: hidden;
-  border-right: 2px solid hsl(0, 0%, 80%);
-  white-space: wrap;
-  animation: typewriter1 4s steps(44) 1s 1 normal both,
-    blinkTextCursor1 500ms infinite;
-  min-height: 15rem;
   font-size: 2rem;
   line-height: 45px;
   padding: 0.3rem;
@@ -87,54 +85,14 @@
   border-radius: 18px;
 }
 
-@keyframes typewriter1 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 2000px;
-  }
-}
-@keyframes blinkTextCursor1 {
-  from {
-    border-right-color: hsl(0, 0%, 80%);
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
-
 .title-aboutme {
-  position: relative;
   color: hsl(0, 0%, 0%);
   font-weight: bold;
   font-family: "Anonymous Pro", monospace;
-  overflow: hidden;
-  border-right: 2px solid hsl(0, 0%, 80%);
-  white-space: wrap;
-  animation: typewriter 3s steps(44) 1s 1 normal both,
-    blinkTextCursor1 500ms infinite;
   font-size: 2rem;
   line-height: 45px;
   padding: 0.3rem;
   height: 3rem;
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 600px;
-  }
-}
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: hsl(0, 0%, 80%);
-  }
-  to {
-    border-right-color: transparent;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -153,18 +111,10 @@
   .ctn-titles-aboutme {
     width: 100%;
   }
-  @keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 430px;
-    }
-  }
 }
 @media screen and (max-width: 435px) {
   .ctn-text1-aboutme {
-    width: 100%;
+    width: 80%;
   }
   .text-aboutme {
     font-size: 1.3rem;
@@ -174,23 +124,7 @@
     font-size: 1.4rem;
     line-height: 18px;
   }
-  @keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 275px;
-    }
-  }
   .ctn-link-aboutme {
     display: none;
-  }
-  @keyframes typewriter1 {
-    from {
-      width: 0;
-    }
-    to {
-      width: 300px;
-    }
   }
 }

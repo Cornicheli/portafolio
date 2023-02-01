@@ -52,7 +52,7 @@ export default function contact() {
               </a>
             </span>
           </button>
-          <button class="cta">
+          {/* <button class="cta">
             <span class="hover-underline-animation">
               <a
                 className="ancor-aboutme"
@@ -75,7 +75,7 @@ export default function contact() {
                 Twitter ←
               </a>
             </span>
-          </button>
+          </button> */}
           {/* <button class="download-button">
             <div class="docs">
               <svg

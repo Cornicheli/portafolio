@@ -20,10 +20,11 @@
 }
 .title-skill {
   font-size: 3.5rem;
-  cursor: pointer;
+  /* cursor: pointer; */
   background: linear-gradient(to right, blue, rgb(174, 31, 55));
   background-size: 200% 100%;
   background-position: -100%;
+  background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -110,7 +111,7 @@
   align-items: center;
   flex-direction: column;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
@@ -232,13 +233,13 @@
 }
 
 .title-skill-logo {
-  cursor: pointer;
   background: linear-gradient(to right, blue, rgb(174, 31, 55));
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
   padding: 5px 0;
   position: relative;
+  background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
