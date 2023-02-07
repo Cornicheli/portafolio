@@ -6,9 +6,8 @@ export default function MyProyect() {
   return (
     <>
       <div className="ctn-img-myproyect" id="proyect">
-        <h1 className="title-proyect">My Jobs</h1>
+        <Card />
       </div>
-      <Card />
     </>
   );
 }
