@@ -98,6 +98,19 @@ export default function Skills() {
                   </i>
                 </span>
               </li>
+
+              <li className="icon electron">
+                <span className="tooltip">Electron Js</span>
+                <span>
+                  <i className="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src="https://www.electronjs.org/assets/img/logo.svg"
+                      alt=""
+                    />
+                  </i>
+                </span>
+              </li>
             </ul>
           </div>
         </div>
@@ -145,6 +158,19 @@ export default function Skills() {
                     <img
                       className="icon-skill-card"
                       src="https://img.icons8.com/color/512/nodejs.png"
+                      alt=""
+                    />
+                  </i>
+                </span>
+              </li>
+
+              <li className="icon firebase">
+                <span className="tooltip">FireBase</span>
+                <span>
+                  <i className="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src="https://assets.stickpng.com/thumbs/5847f40ecef1014c0b5e488a.png"
                       alt=""
                     />
                   </i>

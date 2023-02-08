@@ -49,7 +49,7 @@ export default function Card() {
                     rel="noreferrer"
                     href="https://youtu.be/RnZTvk1Lq9g"
                   >
-                    → Game Center
+                    → My Tinerary
                   </a>
                   <p className="text-details-card">
                     Website of hotels and shows with the possibility to
@@ -154,7 +154,7 @@ export default function Card() {
         </div>
 
         {/* <------------- Electron -------------> */}
-        <div className="main-card-native">
+        <div className="main-card-electron">
           <h1 className="title-card">Application Electron</h1>
           <div className="ctn-card-web">
             <div className="flip-card">
@@ -171,7 +171,7 @@ export default function Card() {
                     className="ancor-youtube"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://youtu.be/uJ-Su6GDFis"
+                    href="https://youtu.be/DLcXHoEyVPo"
                   >
                     → Game Center
                   </a>

@@ -206,12 +206,25 @@
   background: #548e33;
   color: #ffffff;
 }
+.wrapper .firebase:hover,
+.wrapper .firebase:hover .tooltip,
+.wrapper .firebase:hover .tooltip::before {
+  background: #039be5;
+  color: #ffffff;
+}
 .wrapper .redux:hover,
 .wrapper .redux:hover .tooltip,
 .wrapper .redux:hover .tooltip::before {
   background: #996be4ed;
   color: #ffffff;
 }
+.wrapper .electron:hover,
+.wrapper .electron:hover .tooltip,
+.wrapper .electron:hover .tooltip::before {
+  background: #2b2e3a;
+  color: #ffffff;
+}
+
 .wrapper .typescript:hover,
 .wrapper .typescript:hover .tooltip,
 .wrapper .typescript:hover .tooltip::before {

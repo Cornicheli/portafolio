@@ -16,8 +16,8 @@ export default function contact() {
               alt="figure contact"
             />
           </div>
-          <button class="cta">
-            <span class="hover-underline-animation">
+          <button className="cta">
+            <span className="hover-underline-animation">
               <a
                 className="ancor-aboutme"
                 href="https://www.linkedin.com/in/gabriel-cornide-99624923b/"
@@ -28,8 +28,8 @@ export default function contact() {
               </a>
             </span>
           </button>
-          <button class="cta">
-            <span class="hover-underline-animation">
+          <button className="cta">
+            <span className="hover-underline-animation">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -40,8 +40,8 @@ export default function contact() {
               </a>
             </span>
           </button>
-          <button class="cta">
-            <span class="hover-underline-animation">
+          <button className="cta">
+            <span className="hover-underline-animation">
               <a
                 className="ancor-aboutme"
                 href="https://discord.com/channels/@me"

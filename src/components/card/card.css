@@ -1,32 +1,30 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  min-height: 120vh;
+  min-height: 100vh;
 }
 .title-card {
   color: black;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  margin-top: 25px;
   text-align: center;
-  width: 50%;
 }
 .main-card-native {
   display: flex;
   flex-direction: column;
-  height: auto;
 }
 .ctn-card-web {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   justify-content: space-around;
   align-items: center;
 }
 .ctn-card-native {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   justify-content: space-around;
   align-items: center;
 }
@@ -121,6 +119,7 @@
   height: 350px;
   perspective: 1000px;
   font-family: sans-serif;
+  margin: 1rem;
 }
 
 .native-title {
@@ -184,4 +183,19 @@
   width: 100%;
   height: 100%;
   border-radius: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .flip-card {
+    transition: 1s;
+    width: 275px;
+    height: 175px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .flip-card {
+    transition: 1s;
+    width: 250px;
+    height: 230px;
+  }
 }
